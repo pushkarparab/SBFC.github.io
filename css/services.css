@@ -1,0 +1,316 @@
+
+/*
+table
+{
+    width:80%;
+}*/
+.horline
+{
+    width:100%;
+    height:42px;
+    background-color: ;
+    padding: 5px;
+}
+.aadaviline .ubhiline:hover
+{
+    color:white;
+    background-color: greenyellow;
+    border-radius: 5px;
+    
+}
+.aadaviline .ubhiline a
+{
+    text-decoration: none;
+    color:black;
+    font-size: 18px;
+    
+}
+.aadaviline .ubhiline
+{
+    float:left;
+    padding:8px;
+    margin-left: 90px;
+    background-color: white;
+}
+.fstyleheading
+{
+    color: red;
+    font-size: 45px;
+    font-family: 'Permanent Marker', cursive;
+}
+.fstyleinfo
+{
+    color: green;
+    font-size: 20px;
+}
+.photo
+{
+    margin-left:150px;
+}
+.FGT
+{
+    Width:100%;
+    height:450px;
+    background-color:#00001a;
+    border-radius: 30px;
+}
+.FGTheading
+{
+    color:red;
+    font-size: 45px;
+    font-family: 'Permanent Marker', cursive;
+}
+.FGTinfo
+{
+    color:white;
+    font-size: 20px;
+    line-height: 40px;
+    margin-left: 80px;
+}
+.FGTinfo:hover{
+    color:red;
+}
+.FGT img
+{
+    margin-right: 150px;
+    width:550px;
+    height:300px;
+    border-radius:20px;
+}
+input[type=submit]
+{
+    width: 200px;
+    height:50px;
+    color:white;
+    background-color: black;
+    font-size: 20px;
+    border-radius: 20px;
+}
+input[type=submit]:hover
+{
+    color:white;
+    background-color: #00001a;
+}
+.GE
+{
+    Width:100%;
+    height:450px;
+}
+.GEheading
+{
+    color:red;
+    font-size: 45px;
+    font-family: 'Permanent Marker', cursive;
+}
+.GEinfo
+{
+    color:green;
+    font-size: 20px;
+    line-height: 40px;
+    margin-left: 80px;
+}
+.GE img
+{
+    margin-right: 150px;
+    width:550px;
+    height:300px;
+}
+.GEinfo input[type=submit]
+{
+    width: 250px;
+    height:50px;
+    color:white;
+    background-color: black;
+    font-size: 20px;
+    border-radius: 20px;
+}
+.GEinfo input[type=submit]:hover
+{
+    color:white;
+    background-color: #00001a;
+}
+.CT
+{
+    Width:100%;
+    height:450px;
+    background-color: #00001a;
+}
+.CTheading
+{
+    color:red;
+    font-size: 45px;
+    font-family: 'Permanent Marker', cursive;
+}
+.CTinfo
+{
+    color:white;
+    font-size: 20px;
+    line-height: 40px;
+    margin-left: 80px;
+}
+.CT img
+{
+    margin-right: 150px;
+    width:550px;
+    height:300px;
+}
+.ST
+{
+    Width:100%;
+    height:450px;
+}
+.STheading
+{
+    color:red;
+    font-size: 45px;
+    font-family: 'Permanent Marker', cursive;
+}
+.STinfo
+{
+    color:green;
+    font-size: 20px;
+    line-height: 40px;
+    margin-left: 80px;
+}
+.ST img
+{
+    margin-right: 150px;
+    width:550px;
+    height:300px;
+}
+.OTOT
+{
+    Width:100%;
+    height:450px;
+    background-color: #00001a;
+}
+.OTOTheading
+{
+    color:red;
+    font-size: 45px;
+    font-family: 'Permanent Marker', cursive;
+}
+.OTOTinfo
+{
+    color:white;
+    font-size: 20px;
+    line-height: 40px;
+    margin-left: 80px;
+}
+.OTOT img
+{
+    margin-right: 150px;
+    width:550px;
+    height:300px;
+}
+
+#cards{
+    display: flex;
+    align-self: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    width:100%;
+    height:1080px;
+    background-color: #00001a;
+    color:white;
+}
+.card{
+    width: 29%;
+    padding: 0px 30px;
+    box-shadow: slategrey;
+}
+.card>img{
+    display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 350px;
+    height: 300px;
+}
+.card>h2{
+    text-align: center;
+}
+.card>p{
+    text-align: justify;
+}
+.card>a{
+    display: block;
+    text-align: center;
+    background-color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+@media only screen and (min-width: 320px) and (max-width: 768px){
+	hr.hr2{
+		width: 300px;
+		border: 2px solid #252525;
+    }
+    #cards{
+        display: block;
+        align-self: center;
+        margin-top: 50px;
+        margin-left: -15px;
+    }
+    .card{
+        width: 100%;
+        padding: 0px 30px;
+        box-shadow: slategrey;
+    }
+    .card>img{
+        display: block;
+        width: 300px;
+        height: 250px;
+        text-align: center;
+    }
+    .card>p{
+        text-align: justify;
+        margin-left: 7px;
+    }
+
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1440px){
+	hr.hr1{
+		width: 300px;
+		border: 2px solid #252525;
+    }
+    #cards{
+        display: flex;
+        align-self: center;
+        margin-top: 50px;
+    }
+    .card>img{
+        display: block;
+        width: 250px;
+        height: 150px;
+        text-align: center;
+    }
+    .card>p{
+        text-align: justify;
+    }
+    .card{
+        display: block;
+        box-shadow: slategrey;
+    }
+    .card>h2{
+        font-size: 18px;
+    }
+}*/

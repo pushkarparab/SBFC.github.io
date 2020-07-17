@@ -1,0 +1,94 @@
+*{
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body
+{
+    margin: 0%;
+    font-family: sans-serif;
+    background-size: cover;
+}
+.signup
+{
+	background:rgba(50,50,50,0.8);
+	padding:40px;
+	width:380px;
+	height:500px;
+    margin-bottom: 50px;
+	margin-left: 600px;
+    border-radius: 20px;
+}
+form
+{
+	width:300px;
+	text-align:center;
+}
+input[type=text]
+{
+	width:225px;
+	text-align:center;
+	background:transparent;
+	border:none;
+	border-bottom:1px solid grey;
+	font-family:Berlin Sans FB;
+	font-size:16.5px;
+	font-weight:200px;
+	padding:10px 0;
+	transition: border 0.5s;
+	outline:none;
+	color:white;
+}
+input[type=password]
+{
+	width:225px;
+	text-align:center;
+	background:transparent;
+	border:none;
+	border-bottom:1px solid grey;
+	font-family:Berlin Sans FB;
+	font-size:16.5px;
+	font-weight:200px;
+	padding:10px 0;
+	transition: border 0.5s;
+	outline:none;
+	color:white;
+}
+#button
+{
+	width:160px;
+	border:none;
+	color:black;
+	background:white;
+	font-size:15px;
+	line-height:25px;
+	padding:5.0px 0;
+	border-radius:20px;
+	cursor:pointer;
+    
+}
+input[type=button]:hover
+{
+/*	color:white;*/
+	background-color:grey;
+}
+h2
+{
+	color:white;
+    padding: 10px;
+    font-family: 'Permanent Marker', cursive;
+}
+a
+{
+	color:yellow;
+	text-decoration:blink;
+    
+}
+a:hover
+{
+	color:skyblue;
+}
+::placeholder
+{
+	color:aliceblue;
+	opacity:0.8;	
+}

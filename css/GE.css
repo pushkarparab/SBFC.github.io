@@ -1,0 +1,49 @@
+﻿.GEinfo
+{
+	width:100%;
+	height:500px;
+	color:white;
+	padding:20px;
+	font-size:22px;
+}
+.GEinfo h1
+{
+	text-align:center;
+	color:;
+}
+.horline
+{
+	width:100%;
+	display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+	background-color:#00001a;
+}
+.horline img
+{
+	padding:8px;
+}
+.LR
+{
+	width:100%;
+	height:450px;
+	display : flex;
+	flex-wrap: wrap;
+}
+.LRimg
+{
+	margin-left:100px;
+}
+.LRcontent
+{
+	margin-left:100px;
+}
+.LRheading
+{
+	font-size:35px;
+}
+.LRinfo
+{
+	font-size:20px;
+	line-height:35px;
+}
